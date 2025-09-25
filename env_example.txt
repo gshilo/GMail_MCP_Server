@@ -1,0 +1,18 @@
+# Gmail MCP Server Configuration
+
+# Gmail API Configuration
+GMAIL_CREDENTIALS_FILE=credentials.json
+GMAIL_TOKEN_FILE=token.json
+
+# MCP Server Configuration
+MCP_SERVER_NAME=gmail-mcp-server
+MCP_SERVER_VERSION=1.0.0
+MCP_SERVER_DESCRIPTION=Gmail MCP Server for email operations
+
+# Email Configuration
+DEFAULT_MAX_RESULTS=50
+DEFAULT_QUERY=in:inbox
+
+# Logging Configuration
+LOG_LEVEL=INFO
+LOG_FILE=gmail_mcp_server.log
